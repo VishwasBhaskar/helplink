@@ -1,7 +1,7 @@
-import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./VolunteerLogin.css";
+import React, { useState } from "react";
 import loginImage from "../images/Volunteerlogin-image.png"; // Replace with the actual image path
+import "./VolunteerLogin.css";
 
 const Login = () => {
   const [selectedRole, setSelectedRole] = useState("User");
